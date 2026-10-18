@@ -1,0 +1,345 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Rocky Sanchez | ePortfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Portfolio colors -->
+  <style>
+    /* Dark About Me and Projects sections */
+    #about,
+    #portfolio {
+      background-color: #101820;
+      color: #ffffff;
+    }
+
+    #about h2,
+    #portfolio .section-title h2,
+    #portfolio .section-title p {
+      color: #ffffff;
+    }
+
+    /* Dark project cards */
+    #portfolio .card {
+      background-color: #19252b;
+      border: 1px solid #39494e;
+      color: #ffffff;
+    }
+
+    #portfolio .card h4,
+    #portfolio .card p {
+      color: #ffffff;
+    }
+
+    #portfolio .card .text-muted {
+      color: #b8c6c9 !important;
+    }
+
+    /* Solid sage teal buttons */
+    .portfolio-primary-btn {
+      display: inline-block;
+      background-color: #4a9b91;
+      color: #ffffff;
+      border: 1px solid #4a9b91;
+      border-radius: 5px;
+      padding: 8px 14px;
+      text-decoration: none;
+    }
+
+    .portfolio-primary-btn:hover {
+      background-color: #397f76;
+      border-color: #397f76;
+      color: #ffffff;
+    }
+
+    /* Dark buttons with teal outlines */
+    .portfolio-outline-btn {
+      display: inline-block;
+      background-color: #101820;
+      color: #ffffff;
+      border: 1px solid #4a9b91;
+      border-radius: 5px;
+      padding: 8px 14px;
+      text-decoration: none;
+    }
+
+    .portfolio-outline-btn:hover {
+      background-color: #4a9b91;
+      color: #ffffff;
+    }
+
+    /* Keep the hero buttons in the same sage teal color */
+    #hero .btn-get-started {
+      background-color: #4a9b91;
+      border-color: #4a9b91;
+      color: #ffffff;
+    }
+
+    #hero .btn-get-started:hover {
+      background-color: #397f76;
+      border-color: #397f76;
+    }
+
+    #hero .btn-watch-video i {
+      color: #4a9b91;
+    }
+
+    #hero .btn-watch-video:hover i {
+      color: #397f76;
+    }
+    
+  #about {
+    padding-top: 100px;
+    padding-bottom: 140px;
+    }
+  </style>
+
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Rocky Sanchez</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container d-flex flex-column align-items-center">
+        <h2 data-aos="fade-up" data-aos-delay="100">Hello, World.</h2>
+        <p data-aos="fade-up" data-aos-delay="200">Just some things I made</p>
+
+        <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
+          <a href="#about" class="btn-get-started">Get Started</a>
+
+          <a href="https://www.youtube.com/watch?v=bvhA0NTni2E"
+             class="glightbox btn-watch-video d-flex align-items-center">
+            <i class="bi bi-play-circle"></i>
+            <span>Code Review</span>
+          </a>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row justify-content-center">
+          <div class="col-lg-9 text-center">
+
+            <h2>About Me</h2>
+
+            <p class="mt-4">
+              This portfolio includes some of the projects I've worked on
+              while pursuing my bachelor's degree in Computer Science
+              and some of the skills I've learned along the way.
+            </p>
+
+            <a href="Professional Assessment.pdf"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="portfolio-primary-btn">
+              View My Self-Assessment
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+        <p>THINGS I'VE WORKED ON</p>
+      </div>
+
+      <div class="container">
+        <div class="row gy-4">
+
+          <!-- Software Design -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <div class="card h-100">
+              <div class="card-body">
+
+                <h4>Software Design & Engineering</h4>
+                <p class="text-muted">CS 330 - 3D Scene</p>
+
+                <p>
+                  Improved my 3D scene by having reusable functions to simplify the code and make organization better.
+                </p>
+
+                <a href="https://github.com/RSanchezsnhu/CS499-ePortfolio/tree/main/Software-Design"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="portfolio-primary-btn">
+                  View Project
+                </a>
+
+                <a href="Software Design Narrative.pdf"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="portfolio-outline-btn">
+                  Read Narrative (PDF)
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Algorithms -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card h-100">
+              <div class="card-body">
+
+                <h4>Algorithms & Data Structures</h4>
+                <p class="text-muted">CS 300 - Course Planner</p>
+
+                <p>
+                  Improved how courses and prerequisites are handled
+                  using maps, graphs, and algorithms.
+                </p>
+
+                <a href="https://github.com/RSanchezsnhu/CS499-ePortfolio/tree/main/Algorithms-Data-Structures"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="portfolio-primary-btn">
+                  View Project
+                </a>
+
+                <a href="Algorithms Narrative.pdf"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="portfolio-outline-btn">
+                  Read Narrative (PDF)
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Databases -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card h-100">
+              <div class="card-body">
+
+                <h4>Databases</h4>
+                <p class="text-muted">CS 340 - Animal Shelter Dashboard</p>
+
+                <p>
+                  Improved the dashboard with pagination, search features,
+                  and made database queries more efficient.
+                </p>
+
+                <a href="https://github.com/RSanchezsnhu/CS499-ePortfolio/tree/main/Databases"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="portfolio-primary-btn">
+                  View Project
+                </a>
+
+                <a href="Databases Narrative.pdf"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="portfolio-outline-btn">
+                  Read Narrative (PDF)
+                </a>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container text-center py-4">
+
+      <h3>Rocky Sanchez</h3>
+      <p>Computer Science ePortfolio</p>
+
+      <div class="copyright mt-4">
+        <p>© 2026 Rocky Sanchez. All Rights Reserved.</p>
+      </div>
+
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
